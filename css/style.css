@@ -101,6 +101,10 @@ h1, h2, h3, h4, h5, h6{
     overflow: hidden;
 }
 
+.fill-hight{
+    height: 100%;
+}
+
 .header{
     position: fixed;
     top: 0;
@@ -208,4 +212,99 @@ h1, h2, h3, h4, h5, h6{
 
 .logo-container a span{
     color: #fe4c50;
+}
+
+.main-slider{
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 100px;
+}
+
+.main-slider-content{
+    width: 60%;
+}
+
+.main-slider-content h6{
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 29px;
+}
+
+.main-slider-content h1{
+    font-weight: 400;
+    line-height: 1;
+}
+
+.red-button{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 40px;
+    background: #fe4c50;
+    border-radius: 10px;
+    transition: all 0.3s aese;
+}
+
+.red-button a{
+    display: block;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 40px;
+    width: 100%;
+}
+
+.red-button:hover{
+    background: #fe7c7f;
+}
+
+.shop-now-button{
+    width: 140px;
+    margin-top: 32px;
+}
+
+.banner{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.banner-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 265px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-category{
+    height: 50px;
+    background: #ffffff;
+    min-width: 180px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.banner-category a{
+    display: block;
+    color: #1e1e27;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+}
+
+.banner-category a:hover{
+    color: #b5aec4;
 }
